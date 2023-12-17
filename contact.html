@@ -21,6 +21,16 @@
     />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Rosie</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("SwE5aB9I1ZrccgVm_");
+        emailjs.send("gmail", "rosie", templateParams, "SwE5aB9I1ZrccgVm_");
+      })();
+    </script>
   </head>
 
   <body>
